@@ -1,0 +1,111 @@
+.main{
+    overflow-x: hidden;
+}
+.nav-color{
+    background-color: #009E60;
+    height: 50px;
+}
+.profile-footer
+{
+    width: 66%;
+    min-height: 150%;
+    overflow:hidden ;
+    background-color: antiquewhite;
+}
+.profile-footer > img{
+    max-height: 100%;
+    width: 100%;
+   
+    object-fit: cover;
+}
+.btn-protien{
+    border-radius: 50px;
+}
+.bac-bar{
+    background-color: #DBDBDB;
+}
+
+.header
+{
+width: 103%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}   
+
+.profilebtn
+{
+    border-radius: 20px;
+    width: 30%;
+    background-color: white;
+}
+
+.profile-image1
+{
+    border: 2px solid ;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+
+}
+
+.profile-image1 > img{
+    height: 100%;
+    width: 100%;
+}
+
+.profile-input[type="radio"]
+{
+    border: 2px solid ;
+    color: #009E60;
+}
+
+
+@media (max-width:985px) {
+    .profile-footer
+    {
+    width: 100%;
+
+    }
+    .profilebtn
+    {
+    margin-right: 5%;
+    }
+}
+.icon-border{
+    border-radius: 20px;
+    width: 28%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+.icon-color{
+    color: #009E60;
+    margin: 10px;
+}
+
+.footer
+{
+    border: 1px solid gray;
+    min-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.footer-conten{
+    font-size: 13px;
+    padding: 10px 0 0 ;
+}
+
+.span{
+    background-color: white;
+    position: absolute;
+    top: -15px;
+    padding:0 10px;
+}

@@ -1,0 +1,47 @@
+.parent
+{
+    position: relative;
+}
+.min-box
+{
+    border: 1.5px solid;
+    width: 70%;
+    border-radius: 15px;
+    top: -50px;
+    right: 0;
+    background-color: white;
+    position: absolute;
+    height: 50px;
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+}
+
+
+.box1
+{
+    height: 40px;
+    width: 40px;
+    border: 2px solid ;
+    border-radius: 50%;
+
+}
+.box1 > img{
+    height: 100%;
+    width: 100%;
+}
+.takeOut-btn{
+    border-radius: 20px;
+    border: 2px solid green;
+    padding: 4px 10px;
+    margin: 2px;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+}
+
+.active
+{
+    background-color: green;
+    color: white;
+}

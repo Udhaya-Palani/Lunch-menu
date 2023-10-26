@@ -1,0 +1,33 @@
+.food-color{
+    background-color: antiquewhite;
+    height: 230px;
+    object-fit: center;
+}
+
+.order-button{
+    width: 250px;
+    border-radius: 50px;
+    background-color:#009E60;
+}
+
+.orange
+{
+    color: orange;
+    font-size: 13px;
+    font-weight: bold;
+}
+.bold
+{
+    font-weight: bold;
+}
+.light{
+    font-weight: 400;
+}
+
+.card-text
+{
+    color: #009E60;
+}
+.money-color{
+    color: #009E60;
+}
