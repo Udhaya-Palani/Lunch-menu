@@ -67,9 +67,9 @@ function Takeout() {
                      <div className="box1"> <img src={ourStory}/>  </div>
                       </div>}  
                                 </div>
-                    <a href="#" class="btn btn-primary order-button">
+                                <button className="order-button">
                       ORDER NOW
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -105,9 +105,9 @@ function Takeout() {
                      <div className="box1"> <img src={ourStory}/>  </div>
                       </div>}  
                                 </div>
-                    <a href="#" class="btn btn-primary order-button">
+                    <button className="order-button">
                       ORDER NOW
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -141,9 +141,9 @@ function Takeout() {
                      <div className="box1"> <img src={ourStory}/>  </div>
                       </div>}  
                                 </div>
-                    <a href="#" class="btn btn-primary order-button">
+                                <button className="order-button">
                       ORDER NOW
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -179,10 +179,10 @@ function Takeout() {
                      <div className="box1"> <img src={ourStory}/>  </div>
                       </div>}  
                                 </div>
-                    <a href="#" class="btn btn-primary order-button">
+                    <button className="order-button">
                   
                       <Link to='/orderNow' >     ORDER NOW </Link>
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -216,9 +216,9 @@ function Takeout() {
                         <div className="box1">  <img src={ourStory}/>  </div>
                         </div>}  
                                 </div>
-                    <a href="#" class="btn btn-primary order-button">
+                    <button className=" order-button">
                     <Link to='/orderNow' >     ORDER NOW </Link>
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -252,9 +252,9 @@ function Takeout() {
                      <div className="box1"> <img src={ourStory}/>  </div>
                       </div>}  
                                 </div>
-                    <a href="#" class="btn btn-primary order-button">
+                    <button className="order-button">
                       ORDER NOW
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>

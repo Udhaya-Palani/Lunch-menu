@@ -1,8 +1,12 @@
 import "./lunch.css";
 import "bootstrap/dist/css/bootstrap.css";
 import ourStory from "../Our Story.png";
-// import icon from '../Allergens.svg';
+import { useState } from "react";
+
+import { RiMoneyEuroCircleLine } from "react-icons/ri";
 function Lunch() {
+  const [first,setFirst] = useState(false)
+  const [firsts,setFirsts] = useState(false)
   return (
     <>
       <div className="container-fluid">
@@ -32,16 +36,24 @@ function Lunch() {
                       Most popular. Lightly battered pieces of chicken stir
                       fried with vegetables in our zesty sweet chilli sauce.
                     </h6>
-                    <div className="d-flex justify-content-between">
-                      <h6>8.66</h6>
-                      <a href="#" className="d-flex">
+                    <div className="d-flex justify-content-between parent">
+                    <div className="d-flex align-items-center "> 
+                          <RiMoneyEuroCircleLine className="money-color"/>
+                            <h6 className="money-color">8.66</h6>
+                      </div> 
+                      <p className="d-flex" onClick={()=> setFirst((prev) => !prev)} style={{cursor:"pointer"}}>
                         {/* <img src={icon} alt="..."  className="icon"/> */}
                         View Allergens
-                      </a>
-                    </div>
-                    <a href="#" class="btn btn-primary order-button">
+                      </p>
+                     { first && <div className="min-box">
+                     <div className="box1"> <img src={ourStory}/>  </div>
+                     <div className="box1"> <img src={ourStory}/>  </div>
+                     <div className="box1"> <img src={ourStory}/>  </div>
+                      </div>}  
+                                </div>
+                    <button className=" order-button">
                       ORDER NOW
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -60,16 +72,24 @@ function Lunch() {
                       vegetables in our zesty sweet chilli sauce.Lightly
                       battered pieces of chicken
                     </h6>
-                    <div className="d-flex justify-content-between">
-                      <h6>8.66</h6>
-                      <a href="#" className="d-flex">
+                    <div className="d-flex justify-content-between parent">
+                    <div className="d-flex align-items-center "> 
+                          <RiMoneyEuroCircleLine className="money-color"/>
+                            <h6 className="money-color">8.66</h6>
+                      </div> 
+                      <p className="d-flex" onClick={()=> setFirsts((prev) => !prev)} style={{cursor:"pointer"}}>
                         {/* <img src={icon} alt="..."  className="icon"/> */}
                         View Allergens
-                      </a>
-                    </div>
-                    <a href="#" class="btn btn-primary order-button">
+                      </p>
+                     { firsts && <div className="min-box">
+                     <div className="box1"> <img src={ourStory}/>  </div>
+                     <div className="box1"> <img src={ourStory}/>  </div>
+                     <div className="box1"> <img src={ourStory}/>  </div>
+                      </div>}  
+                                </div>
+                    <button className=" order-button">
                       ORDER NOW
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>

@@ -90,17 +90,19 @@ function Profile() {
   return (
     <>
       <div className="nav-color">
-        <Link to="/">back</Link>
+        <Link to="/" className="px-4 text-white text-decoration-none">
+            <h6>back to menu</h6>
+        </Link>
       </div>
       <div className="main">
         <div className="col-lg-12 bac-bar">
           <div className="row">
             <div className="col-lg-4 bg-white">
-              <p>Chilli & Cashew (L)</p>
-              Best Seller. Cashews, scallions, broccoli, peppers, and onions
-              with your protein selection in a homemade Thai seasoning sauce
-              <div>
-                <button>View Allergens</button>
+              <p className="px-3">Chilli & Cashew (L)</p>
+             <p className="px-3">Best Seller. Cashews, scallions, broccoli, peppers, and onions
+              with your protein selection in a homemade Thai seasoning sauce</p> 
+              <div className="px-3">
+                <button className="allergen-btn">View Allergens</button>
               </div>
               <div className=" bac-bar header mt-2">
                 <p className="pt-2">CHOOSE A PROTEIN</p>
@@ -411,7 +413,7 @@ more cheese, etc.</p>
 
             
             <div className="col-lg-8 profile-footer">
-              <img src={ourStory} alt="profile image" />
+              <img src={ourStory} className="mt-5" alt="profile image" />
 
           
             </div>

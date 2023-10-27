@@ -4,7 +4,10 @@
 .nav-color{
     background-color: #009E60;
     height: 50px;
+    display: flex;
+    align-items: center;
 }
+
 .profile-footer
 {
     width: 66%;
@@ -108,4 +111,12 @@ width: 103%;
     position: absolute;
     top: -15px;
     padding:0 10px;
+}
+.allergen-btn{
+    border-radius: 20px;
+    text-decoration: underline;
+    background-color: white;
+    border:1px solid gray;
+    text-align: center;
+
 }
